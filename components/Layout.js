@@ -38,11 +38,12 @@ const Layout = ({ children }) => (
           overflow-x: hidden;
           height: 100%;
           color: #1d201f;
-
+          font-family: mr-eaves-modern, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 1.2rem;
           margin: 0;
           overscroll-behavior: none;
-          perspective: 1px;
-          transform-style: preserve-3d;
         }
         ::-webkit-scrollbar {
           scrollbar-width: 5px;
@@ -61,6 +62,8 @@ const Layout = ({ children }) => (
         }
         a {
           text-decoration: none;
+        }
+        table {
         }
         h1,
         h2 {
@@ -85,36 +88,16 @@ const Layout = ({ children }) => (
         h4 {
         }
         h4 {
-          font-size: 1rem;
           font-weight: 500;
         }
         p {
           font-weight: 300;
-          font-size: 1.5rem;
           text-align: justify;
           line-height: 2rem;
         }
         ul {
           list-style: none;
           padding: 0;
-          font-weight: 800;
-        }
-        span {
-          font-weight: 800;
-          font-family: graphie, sans-serif;
-        }
-        button {
-          font-size: 1.3rem;
-          width: 10rem;
-          height: 10rem;
-          border-radius: 50%;
-          padding: 1.5rem;
-          border: 2px solid #f9f5fa;
-          background-color: transparent;
-          letter-spacing: 0.1rem;
-          margin: 0;
-          color: #1d201f;
-          justify-self: right;
         }
       `}
     </style>

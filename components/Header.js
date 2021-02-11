@@ -14,17 +14,17 @@ const Header = () => (
         </a>
       </Link>
       <Link href="https://www.linkedin.com/in/claire-vaney-383978104">
-        <a>
+        <a target="_blank">
           <img src="/svg/linkedin.svg" />
         </a>
       </Link>
       <Link href="https://twitter.com/VaneyClaire">
-        <a>
+        <a target="_blank">
           <img src="/svg/twitter.svg" />
         </a>
       </Link>
       <Link href="https://github.com/ClaireMarieV">
-        <a>
+        <a target="_blank">
           <img src="/svg/github.svg" />
         </a>
       </Link>
@@ -33,10 +33,21 @@ const Header = () => (
       header {
         display: grid;
         justify-content: center;
+        gap: 1rem;
       }
       .name {
         display: grid;
-        justify-content: center;
+        justify-items: center;
+      }
+      h2 {
+        margin: 0;
+      }
+      img {
+        width: 2rem;
+      }
+      .contact {
+        display: flex;
+        justify-content: space-between;
       }
     `}</style>
   </header>

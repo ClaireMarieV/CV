@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
           overflow-y: scroll;
           overflow-x: auto;
           background-color: #f4f4fa;
-          color: #242424;
+          color: #46211c;
           font-family: montserrat, sans-serif;
           font-weight: 300;
           font-style: normal;
@@ -76,6 +76,7 @@ const Layout = ({ children }) => (
         h2 {
           font-size: 2rem;
           margin-bottom: 0.5rem;
+          color: #ddafa9;
         }
         h3 {
           font-family: mr-eaves-modern, sans-serif;
@@ -106,7 +107,6 @@ const Layout = ({ children }) => (
         }
       `}
     </style>
-    <style jsx>{``}</style>
   </div>
 );
 

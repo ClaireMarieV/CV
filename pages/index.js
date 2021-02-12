@@ -22,7 +22,6 @@ const IndexPage = () => (
       .info h2,
       .experiences h2,
       .competences h2 {
-        color: #ddafa9;
       }
       .experiences ul li > span {
         font-weight: 800;

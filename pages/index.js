@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../components/Seo";
-
+import Link from "next/link";
 import Layout from "../components/Layout";
 import Content from "../components/Content";
 
@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Content>
       <div className="info">
         <div>
-          <h3>Contact</h3>
+          <h2>Contact</h2>
           <table>
             <tr>
               <td>
@@ -46,26 +46,26 @@ const IndexPage = () => (
             </tr>
           </table>
         </div>
-
         <div>
-          <h3>Formations</h3>
+          <h2>Formations</h2>
           <ul>
             <li>
-              Certificat professionnel de Programmeur de site web : CNAM Nancy -
-              Octobre 2018 / Juillet 2019
+              <span>Certificat professionnel de Programmeur de site web :</span>
+              <li>CNAM Nancy - Octobre 2018 / Juillet 2019</li>
             </li>
             <li>
-              M.A.N.A.A (Mise à Niveau en Arts Appliqués) : ORT Strasbourg -
-              Septembre 2012 / Juin 2013
+              <span> M.A.N.A.A (Mise à Niveau en Arts Appliqués) :</span>
+              <li>ORT Strasbourg - Septembre 2012 / Juin 2013</li>
             </li>
             <li>
-              Baccalauréat Professionnel Métiers de la Mode : MarieMarvingt
-              Nancy - Septembre 2010 / Juin 2012
+              <span>Baccalauréat Professionnel Métiers de la Mode : </span>
+              <li>Marie Marvingt Nancy - Septembre 2010 / Juin 2012</li>
             </li>
           </ul>
         </div>
-        <div>
-          <h3>Experiences</h3>
+        <span>_______________________________________________</span>
+        <div className="experiences">
+          <h2>Experiences</h2>
           <ul>
             <li>
               <span>OCT 2019 MAR 2020</span>
@@ -97,19 +97,145 @@ const IndexPage = () => (
               <span>JAN 2014 JUI 2014</span>
             </li>
             <li>
-              <span>Accompagnatrice auprès de personnes handicapées :</span>{" "}
-              physiques et mentales - AFTC
+              <span>Accompagnatrice auprès de personnes handicapées :</span> -
+              AFTC
             </li>
           </ul>
         </div>
       </div>
+      <div className="competences">
+        <h2>Compétences:</h2>
+
+        <ul className="card">
+          <li>
+            <h3>Langages informatique</h3>
+            <ul>
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>NodeJs</li>
+              <li>Javascript</li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>Frameworks</h3>
+            <ul>
+              <li>React</li>
+              <li>Symfony</li>
+              <li>Eleventy</li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>Design</h3>
+            <ul>
+              <li>CSS</li>
+              <li>Photoshop</li>
+              <li>Adobe Illustrator</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul className="card">
+          <li>
+            <h3>Projets</h3>
+            <ul>
+              <li>
+                <ul>
+                  <li>Portfolio -</li>
+                  <li>
+                    Next :
+                    <Link href="https://clairemarievaney.com">
+                      <a target="_blank"> clairemarievaney.com</a>
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>Blog - </li>
+                  <li>
+                    Next :
+                    <Link href="https://ilétaitunefois.fr">
+                      <a target="_blank"> ilétaitunefois.fr</a>
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>Site d'assurance de location de véhicules E.Leclerc -</li>
+                  <li>Symfony</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>Site de vente de dragées -</li>
+                  <li>Express</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>
+                    Site vitrine pour une psychologue
+                    clinicienne/psychothérapeute -
+                  </li>
+                  <li>
+                    Elevently :
+                    <Link href="https://psychologue-alicefelt.fr">
+                      <a target="_blank"> psychologue-alicefelt.fr</a>
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>Site d'écoute de podcast -</li>
+                  <li>
+                    PHP :
+                    <Link href="https://felicitylab.fr">
+                      <a target="_blank"> felicitylab.fr</a>
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>
+                    Site sur les tendances de couleurs Pantone dans la
+                    HauteCouture -
+                  </li>
+                  <li>Next</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>Site de re-vente de vêtements -</li>
+                  <li>Next</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </Content>
 
     <style jsx>{`
-      ul li > span {
+      .info h2,
+      .experiences h2,
+      .competences h2 {
+        color: #ddafa9;
+      }
+      .experiences ul li > span {
+        font-weight: 800;
+      }
+      .info ul li:nth-child(2n) {
+        margin-bottom: 1rem;
+      }
+      .competences:nth-child(3) .card li > ul li > ul:nth-child(1) > li {
         font-weight: 600;
       }
-      ul li:nth-child(2n) {
+      .competences:nth-child(2) .card > li ul {
         margin-bottom: 1rem;
       }
     `}</style>

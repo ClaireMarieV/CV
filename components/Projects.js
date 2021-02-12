@@ -66,6 +66,11 @@ const Projects = () => (
         </ul>
       </li>
     </ul>
+    <style jsx>{`
+      ul li {
+        margin-bottom: 1rem;
+      }
+    `}</style>
   </div>
 );
 export default Projects;

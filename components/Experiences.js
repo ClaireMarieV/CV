@@ -26,9 +26,7 @@ const Experiences = () => (
         <span>AOU 2014 SEP 2017</span>
       </li>
       <li>
-        <span>Aide de cuisine :</span> en cocktails, chaud, froid, patisserie et
-        dressage des plats et aperitifs - Marcotullio/Extras (par intermittence
-        sur plusieurs années)
+        <span>Aide de cuisine :</span> Marcotullio/Extras
       </li>
       <li>
         <span>JAN 2014 JUI 2014</span>

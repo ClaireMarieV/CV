@@ -87,10 +87,10 @@ const Layout = ({ children }) => (
           margin: 0;
           color: #d39991;
         }
-        h4 {
-        }
+
         h4 {
           font-weight: 500;
+          margin: 0;
         }
         p {
           font-weight: 300;

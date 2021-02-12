@@ -30,11 +30,6 @@ const Header = () => (
       </Link>
     </div>
     <style jsx>{`
-      header {
-        display: grid;
-        justify-content: center;
-        gap: 1rem;
-      }
       .name {
         display: grid;
         justify-items: center;
@@ -47,7 +42,8 @@ const Header = () => (
       }
       .contact {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        margin-top: 2rem;
       }
     `}</style>
   </header>

@@ -37,7 +37,14 @@ const Experiences = () => (
         <span>Accompagnatrice auprès de personnes handicapées :</span> - AFTC
       </li>
     </ul>
-    <style jsx>{``}</style>
+    <style jsx>{`
+      .experiences ul li:nth-child(2n) {
+        margin-bottom: 1rem;
+      }
+      .training ul li:nth-child(1n) {
+        font-weight: 800;
+      }
+    `}</style>
   </div>
 );
 

@@ -27,9 +27,7 @@ const IndexPage = () => (
       .experiences ul li > span {
         font-weight: 800;
       }
-      .training ul li:nth-child(2n) {
-        margin-bottom: 1rem;
-      }
+
       .competences:nth-child(3) .card ul ul:nth-child(1) > li {
         font-weight: 600;
       }

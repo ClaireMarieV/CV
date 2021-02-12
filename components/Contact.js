@@ -60,7 +60,11 @@ const Experiences = () => (
         </li>
       </ul>
     </div>
-    <style jsx>{``}</style>
+    <style jsx>{`
+      .training ul li:nth-child(2n) {
+        margin-bottom: 1rem;
+      }
+    `}</style>
   </div>
 );
 

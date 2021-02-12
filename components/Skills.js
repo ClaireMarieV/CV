@@ -34,6 +34,11 @@ const Skills = () => (
         </ul>
       </li>
     </ul>
+    <style jsx>{`
+      ul {
+        margin-bottom: 1rem;
+      }
+    `}</style>
   </div>
 );
 export default Skills;

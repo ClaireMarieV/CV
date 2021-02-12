@@ -4,44 +4,27 @@ const Experiences = () => (
   <div className="info">
     <div>
       <h2>Contact</h2>
-      <table>
-        <tr>
-          <td>
-            <span>Naissance</span>
-          </td>
-          <td>
-            <span>le 21/08/1988</span>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <span>Adresse</span>
-          </td>
-          <td>
-            <ul>
-              <li>31 rue des Jardiniers</li>
-              <li>54000</li>
-              <li>Nancy</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <span>N° telephone</span>
-          </td>
-          <td>
-            <span>06.25.67.11.23</span>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <span>Adresse mail</span>
-          </td>
-          <td>
-            <span>claire.marie.vaney@gmail.com</span>
-          </td>
-        </tr>
-      </table>
+      <div className="content-grid">
+        <div className="grid">
+          <span>Naissance</span>
+          <span>le 21/08/1988</span>
+        </div>
+        <div className="grid">
+          <span>Adresse</span>
+          <ul>
+            <li>31 rue des Jardiniers</li>
+            <li>54000 - Nancy</li>
+          </ul>
+        </div>
+        <div className="grid">
+          <span>N° telephone</span>
+          <span>06.25.67.11.23</span>
+        </div>
+        <div className="grid">
+          <span>Adresse mail</span>
+          <span>claire.marie.vaney@gmail.com</span>
+        </div>
+      </div>
     </div>
     <div className="training">
       <h2>Formations</h2>
@@ -63,6 +46,15 @@ const Experiences = () => (
     <style jsx>{`
       .training ul li:nth-child(2n) {
         margin-bottom: 1rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+      }
+      .content-grid {
+        margin-bottom: 3rem;
+        margin-top: 1rem;
       }
     `}</style>
   </div>

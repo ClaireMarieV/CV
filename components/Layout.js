@@ -35,15 +35,13 @@ const Layout = ({ children }) => (
           width: 100%;
           height: 100%;
           overflow-y: scroll;
-          overflow-x: hidden;
-          height: 100%;
-          color: #1d201f;
-          font-family: mr-eaves-modern, sans-serif;
-          font-weight: 400;
+          overflow-x: auto;
+          background-color: #f4f4fa;
+          color: #242424;
+          font-family: montserrat, sans-serif;
+          font-weight: 300;
           font-style: normal;
-          font-size: 1.2rem;
           margin: 0;
-          overscroll-behavior: none;
         }
         ::-webkit-scrollbar {
           scrollbar-width: 5px;
@@ -80,10 +78,14 @@ const Layout = ({ children }) => (
           margin-bottom: 0.5rem;
         }
         h3 {
-          font-weight: 800;
+          font-family: mr-eaves-modern, sans-serif;
+          font-weight: 400;
           font-style: normal;
-          padding: 1rem;
+          font-size: 1.5rem;
+          letter-spacing: 0.08rem;
+          padding-bottom: 0.5rem;
           margin: 0;
+          color: #d39991;
         }
         h4 {
         }
@@ -98,6 +100,9 @@ const Layout = ({ children }) => (
         ul {
           list-style: none;
           padding: 0;
+        }
+        a {
+          color: #242424;
         }
       `}
     </style>

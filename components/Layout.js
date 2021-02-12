@@ -75,8 +75,8 @@ const Layout = ({ children }) => (
         }
         h2 {
           font-size: 2rem;
-          margin-bottom: 0.5rem;
           color: #ddafa9;
+          margin: 0;
         }
         h3 {
           font-family: mr-eaves-modern, sans-serif;

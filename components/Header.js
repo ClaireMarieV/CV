@@ -36,6 +36,7 @@ const Header = () => (
       }
       h2 {
         margin: 0;
+        color: #46211c;
       }
       img {
         width: 2rem;

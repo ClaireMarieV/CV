@@ -2,14 +2,22 @@ import React from "react";
 
 const Content = ({ children }) => (
   <div className="container">
-    {children}
+    <div className="grid-container">{children}</div>
     <style jsx>{`
       .container {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: 1fr;
+        margin: auto;
         width: 80vw;
-        margin: 4rem auto 4rem auto;
-        grid-gap: 2rem;
+        justify-items: center;
+        margin-bottom: 4rem;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-gap: 1rem 10rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
       }
     `}</style>
   </div>

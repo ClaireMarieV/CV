@@ -49,12 +49,15 @@ const Experiences = () => (
       }
       .grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 9rem);
         align-items: center;
       }
       .content-grid {
         margin-bottom: 3rem;
         margin-top: 1rem;
+      }
+      .training ul li:nth-child(1n) {
+        font-weight: 800;
       }
     `}</style>
   </div>

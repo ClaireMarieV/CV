@@ -29,6 +29,7 @@ const Skills = () => (
         <h3>Design</h3>
         <ul>
           <li>CSS</li>
+          <li>Wireframing</li>
           <li>Photoshop</li>
           <li>Adobe Illustrator</li>
         </ul>

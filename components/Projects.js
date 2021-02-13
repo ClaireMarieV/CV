@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Projects = () => (
   <div className="projects">
+    <h2>Projets</h2>
     <ul className="card projects">
       <li>
-        <h2>Projets</h2>
         <ul>
           <li>
             <h4>Portfolio -</h4>
@@ -34,9 +34,7 @@ const Projects = () => (
             <div>Express</div>
           </li>
           <li>
-            <h4>
-              Site vitrine pour une psychologue clinicienne/psychothérapeute -
-            </h4>
+            <h4>Site vitrine pour une psychologue -</h4>
             <div>
               Elevently :
               <Link href="https://psychologue-alicefelt.fr">
@@ -54,9 +52,7 @@ const Projects = () => (
             </div>
           </li>
           <li>
-            <h4>
-              Site sur les tendances de couleurs Pantone dans la HauteCouture -
-            </h4>
+            <h4>Site sur les tendances de couleurs Pantone -</h4>
             <div>Next</div>
           </li>
           <li>
@@ -69,6 +65,9 @@ const Projects = () => (
     <style jsx>{`
       ul li {
         margin-bottom: 1rem;
+      }
+      .competences:nth-child(3) .card ul ul:nth-child(1) > li {
+        font-weight: 600;
       }
     `}</style>
   </div>

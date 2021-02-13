@@ -18,35 +18,7 @@ const IndexPage = () => (
       <Projects />
     </Content>
 
-    <style jsx>{`
-      .info h2,
-      .experiences h2,
-      .competences h2 {
-      }
-      .experiences ul li > span {
-        font-weight: 800;
-      }
-
-      .competences:nth-child(3) .card ul ul:nth-child(1) > li {
-        font-weight: 600;
-      }
-      .competences:nth-child(2) .card > li ul {
-        margin-bottom: 1rem;
-      }
-
-      .experiences {
-        border-top: 1px solid black;
-      }
-
-      .projects h4 {
-        font-weight: 600;
-        margin: 0;
-      }
-
-      .projects li ~ li {
-        margin-top: 1rem;
-      }
-    `}</style>
+    <style jsx>{``}</style>
   </Layout>
 );
 

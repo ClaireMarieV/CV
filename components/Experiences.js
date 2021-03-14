@@ -29,24 +29,6 @@ const Experiences = () => (
       <li>
         <span>Stage développeuse full - stack : </span>Assurandis
       </li>
-      <li>
-        <span>AVR 2018 SEP 2018</span>
-      </li>
-      <li>
-        <span>Serveuse :</span> Brasserie du Parc Ste Marie
-      </li>
-      <li>
-        <span>AOU 2014 SEP 2017</span>
-      </li>
-      <li>
-        <span>Aide de cuisine : </span>Marcotullio/Extras
-      </li>
-      <li>
-        <span>JAN 2014 JUI 2014</span>
-      </li>
-      <li>
-        <span>Accompagnatrice/art-thérapeute : </span>AFTC
-      </li>
     </ul>
     <style jsx>{`
       .experiences ul li:nth-child(2n) {

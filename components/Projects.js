@@ -56,8 +56,8 @@ const Projects = () => (
             <div>Next</div>
           </li>
           <li>
-            <h4>Site de re-vente de vêtements -</h4>
-            <div>Next</div>
+            <h4>Site Ecommerce -</h4>
+            <div>Next/Strapi</div>
           </li>
         </ul>
       </li>

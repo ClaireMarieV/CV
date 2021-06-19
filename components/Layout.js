@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
           height: 100%;
           overflow-y: scroll;
           overflow-x: auto;
-          background-color: #f4f4fa;
+          background-color: #f8f7fb;
           color: #373737;
           font-family: montserrat, sans-serif;
           font-weight: 300;
@@ -75,7 +75,7 @@ const Layout = ({ children }) => (
         }
         h2 {
           font-size: 2rem;
-          color: #ddafa9;
+          color: #b7b1d4;
           margin: 0;
         }
         h3 {
@@ -86,7 +86,7 @@ const Layout = ({ children }) => (
           letter-spacing: 0.08rem;
           padding-bottom: 0.5rem;
           margin: 0;
-          color: #c16e63;
+          color: #7e72b2;
         }
 
         h4 {

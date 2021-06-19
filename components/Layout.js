@@ -22,7 +22,8 @@ const Layout = ({ children }) => (
           height: 100%;
         }
         main {
-          height: 100vh;
+          width: 84vw;
+          margin: auto;
         }
         html,
         body {
@@ -36,12 +37,12 @@ const Layout = ({ children }) => (
           height: 100%;
           overflow-y: scroll;
           overflow-x: auto;
-          background-color: #fdfcfe;
           color: #373737;
           font-family: montserrat, sans-serif;
           font-weight: 300;
           font-style: normal;
           margin: 0;
+          letter-spacing: 0.08rem;
         }
         ::-webkit-scrollbar {
           scrollbar-width: 5px;
@@ -68,14 +69,14 @@ const Layout = ({ children }) => (
           font-family: mr-eaves-modern, sans-serif;
           font-weight: 400;
           font-style: normal;
+          text-transform: uppercase;
         }
         h1 {
           letter-spacing: 0.15rem;
-          font-size: 3rem;
+          font-size: 4rem;
         }
         h2 {
           font-size: 2rem;
-          color: #b7b1d4;
           margin: 0;
         }
         h3 {
@@ -86,12 +87,12 @@ const Layout = ({ children }) => (
           letter-spacing: 0.08rem;
           padding-bottom: 0.5rem;
           margin: 0;
-          color: #7e72b2;
         }
 
         h4 {
-          font-weight: 500;
+          font-weight: 600;
           margin: 0;
+          text-transform: uppercase;
         }
         p {
           font-weight: 300;
@@ -101,9 +102,18 @@ const Layout = ({ children }) => (
         ul {
           list-style: none;
           padding: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+        }
+        ul > li {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
         }
         a {
-          color: #2e1612;
+          color: #373737;
+          font-weight: 500;
         }
       `}
     </style>

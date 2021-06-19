@@ -3,49 +3,79 @@ import Link from "next/link";
 
 const Header = () => (
   <header>
-    <div className="name">
-      <h1>Claire Marie Vaney</h1>
-      <h2>Développeuse front-end - UX/UI Designer</h2>
-    </div>
-    <div className="contact">
-      <Link href="mailto:claire.marie.vaney@gmail.com">
-        <a>
-          <img src="/svg/mail.svg" />
-        </a>
-      </Link>
-      <Link href="https://www.linkedin.com/in/claire-vaney-383978104">
-        <a target="_blank">
-          <img src="/svg/linkedin.svg" />
-        </a>
-      </Link>
-      <Link href="https://twitter.com/VaneyClaire">
-        <a target="_blank">
-          <img src="/svg/twitter.svg" />
-        </a>
-      </Link>
-      <Link href="https://github.com/ClaireMarieV">
-        <a target="_blank">
-          <img src="/svg/github.svg" />
-        </a>
-      </Link>
-    </div>
-    <style jsx>{`
-      .name {
-        display: grid;
-        justify-items: center;
-      }
-      h2 {
-        margin: 0;
-      }
-      img {
-        width: 2rem;
-      }
-      .contact {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 2rem;
-      }
-    `}</style>
+    <nav>
+      <div className="name">
+        <h1>Claire Marie Vaney</h1>
+        <h2>Développeuse front-end </h2>
+        <h2> UX/UI Designer</h2>
+      </div>
+      <div className="info">
+        <span>adresse</span>
+        <span>: 31 rue des Jardiniers - 54000 - Nancy</span>
+        <span>telephone</span>
+        <span>: 06.25.67.11.23</span>
+        <span>email</span>
+        <span>: claire.marie.vaney@gmail.com</span>
+        <span>social network</span>
+        <section className="contact">
+          <Link href="https://www.linkedin.com/in/claire-vaney-383978104">
+            <a target="_blank">
+              <img src="/svg/linkedin.svg" />
+            </a>
+          </Link>
+          <Link href="https://github.com/ClaireMarieV">
+            <a target="_blank">
+              <img src="/svg/github.svg" />
+            </a>
+          </Link>
+          <Link href="https://github.com/ClaireMarieV">
+            <a target="_blank">
+              <img src="/svg/github.svg" />
+            </a>
+          </Link>
+        </section>
+      </div>
+
+      <style jsx>{`
+        nav {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 2rem;
+          align-items: center;
+          justify-items: center;
+          padding-bottom: 4rem;
+          margin: 0 6rem;
+          border-bottom: 1px solid lightgray;
+        }
+
+        h2 {
+          margin: 0;
+        }
+        img {
+          width: 1rem;
+        }
+        .name {
+          border-right: 2px solid;
+          padding: 3rem;
+        }
+        .info {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+          row-gap: 1rem;
+          column-gap: 6rem;
+          justify-self: start;
+          align-self: end;
+        }
+        .info > span:nth-child(odd) {
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+        .contact {
+          display: flex;
+          justify-content: space-between;
+        }
+      `}</style>
+    </nav>
   </header>
 );
 

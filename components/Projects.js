@@ -9,38 +9,38 @@ const Projects = () => (
         <ul>
           <li>
             <h4>Portfolio -</h4>
-            <div>
+            <span>
               Next :
               <Link href="https://clairemarievaney.com">
                 <a target="_blank"> clairemarievaney.com</a>
               </Link>
-            </div>
+            </span>
           </li>
           <li>
             <h4>Blog - </h4>
-            <div>
+            <span>
               Next :
               <Link href="https://ilétaitunefois.fr">
                 <a target="_blank"> ilétaitunefois.fr</a>
               </Link>
-            </div>
+            </span>
           </li>
           <li>
             <h4>Site d'assurance de location de véhicules E.Leclerc -</h4>
-            <div>Symfony</div>
+            <span>Symfony</span>
           </li>
           <li>
             <h4>Site de vente de dragées -</h4>
-            <div>Express</div>
+            <span>Express</span>
           </li>
           <li>
             <h4>Site vitrine pour une psychologue -</h4>
-            <div>
+            <span>
               Elevently :
               <Link href="https://psychologue-alicefelt.fr">
                 <a target="_blank"> psychologue-alicefelt.fr</a>
               </Link>
-            </div>
+            </span>
           </li>
           <li>
             <h4>Site d'écoute de podcast -</h4>
@@ -54,6 +54,15 @@ const Projects = () => (
           <li>
             <h4>Site sur les tendances de couleurs Pantone -</h4>
             <div>Next</div>
+          </li>
+          <li>
+            <h4>Site de générations de blobs -</h4>
+            <div>
+              Next :
+              <Link href="https://organicblob.com">
+                <a target="_blank"> organicblob.com</a>
+              </Link>
+            </div>
           </li>
           <li>
             <h4>Site Ecommerce -</h4>

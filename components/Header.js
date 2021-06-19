@@ -5,7 +5,7 @@ const Header = () => (
   <header>
     <div className="name">
       <h1>Claire Marie Vaney</h1>
-      <h2>Développeuse front-end </h2>
+      <h2>Développeuse front-end - UX/UI Designer</h2>
     </div>
     <div className="contact">
       <Link href="mailto:claire.marie.vaney@gmail.com">

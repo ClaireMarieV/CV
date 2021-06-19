@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
           height: 100%;
           overflow-y: scroll;
           overflow-x: auto;
-          background-color: #f8f7fb;
+          background-color: #fdfcfe;
           color: #373737;
           font-family: montserrat, sans-serif;
           font-weight: 300;

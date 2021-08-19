@@ -3,21 +3,25 @@ import Link from "next/link";
 
 const Skills = () => (
   <div className="competences">
-    <h2>SKILLS</h2>
-
+    <section>
+      <h2>Skills</h2>
+    </section>
     <ul className="card">
       <li>
+        <h4>languages</h4>
         <ul>
           <li>PHP</li>
           <li>MySQL</li>
-          <li>NodeJs</li>
           <li>Javascript</li>
         </ul>
       </li>
 
       <li>
+        <h4>Frameworks - CMS</h4>
         <ul>
-          <li>React</li>
+          <li>ReactJs</li>
+          <li>NodeJs</li>
+          <li>VueJs</li>
           <li>Symfony</li>
           <li>Eleventy</li>
           <li>Strapi</li>
@@ -26,6 +30,7 @@ const Skills = () => (
       </li>
 
       <li>
+        <h4>Design</h4>
         <ul>
           <li>Wireframing</li>
           <li>Experience client</li>
@@ -40,6 +45,14 @@ const Skills = () => (
     <style jsx>{`
       ul > li > ul {
         margin-bottom: 1rem;
+      }
+      section {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+      section > img {
+        width: 5rem;
       }
     `}</style>
   </div>

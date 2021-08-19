@@ -18,21 +18,8 @@ const Header = () => (
         <span>: claire.marie.vaney@gmail.com</span>
         <span>social network</span>
         <section className="contact">
-          <Link href="https://www.linkedin.com/in/claire-vaney-383978104">
-            <a target="_blank">
-              <img src="/svg/linkedin.svg" />
-            </a>
-          </Link>
-          <Link href="https://github.com/ClaireMarieV">
-            <a target="_blank">
-              <img src="/svg/github.svg" />
-            </a>
-          </Link>
-          <Link href="https://github.com/ClaireMarieV">
-            <a target="_blank">
-              <img src="/svg/github.svg" />
-            </a>
-          </Link>
+          <img src="/svg/linkedin.svg" />
+          <img src="/svg/github.svg" />
         </section>
       </div>
 
@@ -72,7 +59,7 @@ const Header = () => (
         }
         .contact {
           display: flex;
-          justify-content: space-between;
+          justify-content: space-around;
         }
       `}</style>
     </nav>

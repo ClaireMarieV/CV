@@ -3,7 +3,6 @@ import React from "react";
 const Experiences = () => (
   <div className="experiences">
     <section>
-      <img src="/svg/case.svg" />
       <h2>Experiences</h2>
     </section>
     <ul>
@@ -35,6 +34,7 @@ const Experiences = () => (
       section {
         display: flex;
         align-items: center;
+        gap: 1rem;
       }
       section > img {
         width: 5rem;

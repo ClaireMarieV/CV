@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
           height: 100%;
         }
         main {
-          width: 84vw;
+          width: 70vw;
           margin: auto;
         }
         html,

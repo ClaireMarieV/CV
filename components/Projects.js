@@ -8,6 +8,19 @@ const Projects = () => (
       <li>
         <ul>
           <li>
+            <h4>Longines Riviera Homepage -</h4>
+            <span>HTML/CSS/GSAP </span>
+          </li>
+          <li>
+            <h4>SaaS -</h4>
+            <span>
+              Next :
+              <Link href="https://ogme.io">
+                <a target="_blank"> ogme.io</a>
+              </Link>
+            </span>
+          </li>
+          <li>
             <h4>Portfolio -</h4>
             <span>
               Next :
@@ -50,10 +63,6 @@ const Projects = () => (
                 <a target="_blank"> felicitylab.fr</a>
               </Link>
             </div>
-          </li>
-          <li>
-            <h4>Site sur les tendances de couleurs Pantone -</h4>
-            <div>Next</div>
           </li>
           <li>
             <h4>Site de générations de blobs -</h4>

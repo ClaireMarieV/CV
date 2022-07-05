@@ -17,15 +17,13 @@ const Skills = () => (
       </li>
 
       <li>
-        <h4>Frameworks - CMS</h4>
+        <h4>Frameworks</h4>
         <ul>
           <li>ReactJs</li>
           <li>NodeJs</li>
           <li>VueJs</li>
           <li>Symfony</li>
           <li>Eleventy</li>
-          <li>Strapi</li>
-          <li>Wordpress</li>
         </ul>
       </li>
 
@@ -35,7 +33,7 @@ const Skills = () => (
           <li>Wireframing</li>
           <li>Experience client</li>
           <li>Optimisation</li>
-          <li>Interface Design</li>
+          <li>Interaction Design</li>
           <li>User Design</li>
           <li>Photoshop</li>
           <li>Adobe Illustrator</li>

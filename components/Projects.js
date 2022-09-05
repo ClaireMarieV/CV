@@ -13,69 +13,31 @@ const Projects = () => (
           </li>
           <li>
             <h4>SaaS -</h4>
-            <span>
-              Next :
-              <Link href="https://ogme.io">
-                <a target="_blank"> ogme.io</a>
-              </Link>
-            </span>
+            <span>NextJS/ReactJS : ogme.io</span>
           </li>
           <li>
             <h4>Portfolio -</h4>
-            <span>
-              Next :
-              <Link href="https://clairemarievaney.com">
-                <a target="_blank"> clairemarievaney.com</a>
-              </Link>
-            </span>
+            <span>NextJS/ReactJS : clairemarievaney.com</span>
           </li>
           <li>
-            <h4>Blog - </h4>
-            <span>
-              Next :
-              <Link href="https://ilétaitunefois.fr">
-                <a target="_blank"> ilétaitunefois.fr</a>
-              </Link>
-            </span>
+            <h4>Blog -</h4>
+            <span>NextJS/ReactJS : ilétaitunefois.fr</span>
           </li>
           <li>
             <h4>Site d'assurance de location de véhicules E.Leclerc -</h4>
             <span>Symfony</span>
           </li>
           <li>
-            <h4>Site de vente de dragées -</h4>
-            <span>Express</span>
-          </li>
-          <li>
             <h4>Site vitrine pour une psychologue -</h4>
-            <span>
-              Elevently :
-              <Link href="https://psychologue-alicefelt.fr">
-                <a target="_blank"> psychologue-alicefelt.fr</a>
-              </Link>
-            </span>
-          </li>
-          <li>
-            <h4>Site d'écoute de podcast -</h4>
-            <div>
-              PHP :
-              <Link href="https://felicitylab.fr">
-                <a target="_blank"> felicitylab.fr</a>
-              </Link>
-            </div>
+            <span>Elevently : psychologue-alicefelt.fr</span>
           </li>
           <li>
             <h4>Site de générations de blobs -</h4>
-            <div>
-              Next :
-              <Link href="https://organicblob.com">
-                <a target="_blank"> organicblob.com</a>
-              </Link>
-            </div>
+            <div>NextJS/ReactJS : organicblob.com</div>
           </li>
           <li>
             <h4>Site Ecommerce -</h4>
-            <div>Next/Strapi</div>
+            <div>NextJS/Strapi</div>
           </li>
         </ul>
       </li>

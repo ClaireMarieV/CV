@@ -4,8 +4,8 @@ const Resume = () => (
   <div className="resume">
     <h2>RESUME</h2>
     <p>
-      Je m'appelle Claire et je suis aujourd'hui freelance developpeuse Front -
-      UX/UI Designer.
+      Je m'appelle Claire et je suis aujourd'hui freelance developpeuse
+      Fullstack - UX/UI Designer.
     </p>
     <p>
       J'ai appris au travers de mes formations et experiences une methodologie

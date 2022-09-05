@@ -21,9 +21,7 @@ const Skills = () => (
         <ul>
           <li>ReactJs</li>
           <li>NodeJs</li>
-          <li>VueJs</li>
           <li>Symfony</li>
-          <li>Eleventy</li>
         </ul>
       </li>
 
@@ -35,7 +33,6 @@ const Skills = () => (
           <li>Optimisation</li>
           <li>Interaction Design</li>
           <li>User Design</li>
-          <li>Photoshop</li>
           <li>Adobe Illustrator</li>
         </ul>
       </li>

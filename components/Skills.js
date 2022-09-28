@@ -1,42 +1,45 @@
-import React from "react";
-import Link from "next/link";
-
 const Skills = () => (
-  <div className="competences">
-    <section>
-      <h2>Skills</h2>
-    </section>
-    <ul className="card">
-      <li>
-        <h4>languages</h4>
-        <ul>
-          <li>PHP</li>
-          <li>MySQL</li>
-          <li>Javascript</li>
-        </ul>
-      </li>
+  <>
+    <div className="img">
+      <img src="/svg/pivoineYellow.svg" />
+    </div>
+    <div className="competences">
+      <section>
+        <h2>Compétences</h2>
+      </section>
+      <ul className="card">
+        <li>
+          <h4>languages</h4>
+          <ul>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Javascript</li>
+          </ul>
+        </li>
 
-      <li>
-        <h4>Frameworks</h4>
-        <ul>
-          <li>ReactJs</li>
-          <li>NodeJs</li>
-          <li>Symfony</li>
-        </ul>
-      </li>
+        <li>
+          <h4>Frameworks</h4>
+          <ul>
+            <li>ReactJs</li>
+            <li>NodeJs</li>
+            <li>Symfony</li>
+          </ul>
+        </li>
 
-      <li>
-        <h4>Design</h4>
-        <ul>
-          <li>Wireframing</li>
-          <li>Experience client</li>
-          <li>Optimisation</li>
-          <li>Interaction Design</li>
-          <li>User Design</li>
-          <li>Adobe Illustrator</li>
-        </ul>
-      </li>
-    </ul>
+        <li>
+          <h4>Design</h4>
+          <ul>
+            <li>Wireframing</li>
+            <li>Experience client</li>
+            <li>Optimisation</li>
+            <li>Interaction Design</li>
+            <li>User Design</li>
+            <li>Adobe Illustrator</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
     <style jsx>{`
       ul > li > ul {
         margin-bottom: 1rem;
@@ -49,7 +52,19 @@ const Skills = () => (
       section > img {
         width: 5rem;
       }
+      .competences {
+        position: relative;
+      }
+      .img {
+        position: absolute;
+        left: 7rem;
+        top: 32rem;
+        z-index: 0;
+      }
+      .img img {
+        max-width: 11rem;
+      }
     `}</style>
-  </div>
+  </>
 );
 export default Skills;

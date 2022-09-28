@@ -43,6 +43,7 @@ const Layout = ({ children }) => (
           font-style: normal;
           margin: 0;
           letter-spacing: 0.08rem;
+          position: relative;
         }
         ::-webkit-scrollbar {
           scrollbar-width: 5px;

@@ -5,7 +5,7 @@ const Skills = () => (
     </div>
     <div className="competences">
       <section>
-        <h2>Compétences</h2>
+        <h2>Competences</h2>
       </section>
       <ul className="card">
         <li>

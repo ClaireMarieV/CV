@@ -4,7 +4,7 @@ const Projects = () => (
       <img src="/svg/pivoineYellow.svg" />
     </div>
     <div className="projects">
-      <h2>Projets</h2>
+      <h2>Realisations</h2>
       <ul className="card projects">
         <li>
           <ul>
@@ -19,10 +19,6 @@ const Projects = () => (
             <li>
               <h4>Portfolio -</h4>
               <span>NextJS/ReactJS : clairemarievaney.com</span>
-            </li>
-            <li>
-              <h4>Blog -</h4>
-              <span>NextJS/ReactJS : ilétaitunefois.fr</span>
             </li>
             <li>
               <h4>location de véhicules E.Leclerc -</h4>

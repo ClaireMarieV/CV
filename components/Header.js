@@ -15,16 +15,25 @@ const Header = () => (
         </div>
       </div>
       <div className="info">
-        <span>adresse</span>
-        <span>: 31 rue des Jardiniers - 54000 - Nancy</span>
+        <span>lieu</span>
+        <span>: Nancy</span>
         <span>téléphone</span>
         <span>: 06.25.67.11.23</span>
         <span>email</span>
         <span>: claire.marie.vaney@gmail.com</span>
         <span>social network</span>
         <section className="contact">
-          <img src="/svg/linkedin.svg" />
+          <Link href="https://www.linkedin.com/in/claire-marie-vaney-383978104/">
+            <a>
+              <img src="/svg/linkedin.svg" />
+            </a>
+          </Link>
           <img src="/svg/github.svg" />
+          <Link href="https://dribbble.com/ClaireMarie">
+            <a>
+              <span>Dribbble</span>
+            </a>
+          </Link>
         </section>
       </div>
     </nav>
@@ -84,6 +93,9 @@ const Header = () => (
       .contact {
         display: flex;
         justify-content: space-around;
+      }
+      .contact span{
+        font-weight:600
       }
       #border img {
         max-width: 100%;

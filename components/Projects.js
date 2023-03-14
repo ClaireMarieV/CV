@@ -4,7 +4,7 @@ const Projects = () => (
       <img src="/svg/pivoineYellow.svg" />
     </div>
     <div className="projects">
-      <h2>Projets</h2>
+      <h2>Realisations</h2>
       <ul className="card projects">
         <li>
           <ul>

@@ -1,3 +1,6 @@
+import React from "react";
+import Link from "next/link";
+
 const Experiences = () => (
   <>
     <div className="img">
@@ -32,17 +35,11 @@ const Experiences = () => (
         text-transform: uppercase;
       }
 
-      .img {
-        position: absolute;
-        left: 7rem;
-        bottom: -69rem;
-        z-index: 0;
-      }
-      .img img {
-        max-width: 11rem;
+      img {
+        width: 2rem;
       }
     `}</style>
-  </>
+  </div>
 );
 
 export default Experiences;

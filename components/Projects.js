@@ -21,10 +21,6 @@ const Projects = () => (
               <span>NextJS/ReactJS : clairemarievaney.com</span>
             </li>
             <li>
-              <h4>Blog -</h4>
-              <span>NextJS/ReactJS : ilétaitunefois.fr</span>
-            </li>
-            <li>
               <h4>location de véhicules E.Leclerc -</h4>
               <span>Symfony : location.assurandis.com</span>
             </li>

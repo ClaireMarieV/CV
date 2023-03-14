@@ -5,7 +5,7 @@ const Experiences = () => (
     </div>
     <div className="experiences">
       <section>
-        <h2>éxpériences</h2>
+        <h2>experiences</h2>
       </section>
       <ul>
         <li>

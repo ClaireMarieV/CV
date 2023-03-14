@@ -5,7 +5,7 @@ const Skills = () => (
     </div>
     <div className="competences">
       <section>
-        <h2>Compétences</h2>
+        <h2>Competences</h2>
       </section>
       <ul className="card">
         <li>
@@ -33,6 +33,7 @@ const Skills = () => (
             <li>Experience client</li>
             <li>Optimisation</li>
             <li>Interaction Design</li>
+            <li>Interface Design</li>
             <li>User Design</li>
             <li>Adobe Illustrator</li>
           </ul>

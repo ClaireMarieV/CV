@@ -9,7 +9,7 @@ const Experiences = () => (
         <ul>
           <li>
             <span>Octobre 2018 - Juillet 2019</span>
-            <span>Certificat de Programmeur de site web </span>
+            <span>Certificat Professionnel Développeur web </span>
           </li>
           <li>
             <span>Sept 2012 - Jui 2013</span>

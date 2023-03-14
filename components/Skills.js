@@ -59,7 +59,7 @@ const Skills = () => (
       .img {
         position: absolute;
         left: 7rem;
-        top: 32rem;
+        top: 33rem;
         z-index: 0;
       }
       .img img {

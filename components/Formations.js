@@ -35,8 +35,13 @@ const Experiences = () => (
         text-transform: uppercase;
       }
 
-      img {
-        width: 2rem;
+      .img {
+        position: absolute;
+        top: 115rem;
+        left: 7rem;
+      }
+      .img img {
+        max-width: 11rem;
       }
     `}</style>
   </div>

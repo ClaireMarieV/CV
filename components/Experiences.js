@@ -53,7 +53,7 @@ const Experiences = () => (
       }
       .img {
         position: absolute;
-        top: 81rem;
+        top: 79rem;
         left: 49rem;
       }
       .img img {

@@ -28,7 +28,7 @@ const Resume = () => (
       .img {
         position: absolute;
         left: 7rem;
-        top: 81rem;
+        top: 79rem;
         z-index: 0;
       }
       .img img {

@@ -51,7 +51,7 @@ const Projects = () => (
       .img {
         position: absolute;
         left: 49rem;
-        top: 33rem;
+        top: 34rem;
         z-index: 0;
       }
       .img img {

@@ -1,8 +1,5 @@
 const Experiences = () => (
   <>
-    <div className="img">
-      <img src="/svg/pivoineYellow.svg" />
-    </div>
     <div className="experiences">
       <section>
         <h2>experiences</h2>

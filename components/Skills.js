@@ -1,24 +1,22 @@
 const Skills = () => (
   <>
-    <div className="img">
-      <img src="/svg/pivoineYellow.svg" />
-    </div>
     <div className="competences">
       <section>
-        <h2>Competences</h2>
+        <h2>Skills</h2>
       </section>
       <ul className="card">
         <li>
           <h4>languages</h4>
           <ul>
             <li>PHP</li>
+            <li>Typescript</li>
             <li>MySQL</li>
-            <li>Javascript</li>
+            <li>Postgresql</li>
           </ul>
         </li>
 
         <li>
-          <h4>Frameworks</h4>
+          <h4>Frameworks/Lib</h4>
           <ul>
             <li>ReactJs</li>
             <li>NodeJs</li>

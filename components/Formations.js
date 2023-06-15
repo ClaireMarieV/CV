@@ -3,9 +3,6 @@ import Link from "next/link";
 
 const Experiences = () => (
   <div>
-    <div className="img">
-      <img src="/svg/pivoineYellow.svg" />
-    </div>
     <div>
       <div className="training">
         <h2>Formations</h2>

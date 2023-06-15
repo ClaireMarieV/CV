@@ -7,10 +7,7 @@ const Header = () => (
         <div className="title">
           <h1>Claire Marie Vaney</h1>
           <h2>Développeuse Fullstack </h2>
-          <h2> UX/UI Designer - Graphic Designer</h2>
-        </div>
-        <div className="img">
-          <img src="/svg/pivoine.svg" />
+          <h2> UX/UI Designer </h2>
         </div>
       </div>
       <div className="info">
@@ -20,13 +17,6 @@ const Header = () => (
         <span>: 06.25.67.11.23</span>
         <span>email</span>
         <span>: claire.marie.vaney@gmail.com</span>
-        <span>social network</span>
-        <section className="contact">
-          <img src="/svg/social/linkedin.svg" />
-          <img src="/svg/social/github.svg" />
-          <img src="/svg/social/instagram.svg" />
-          <span>Dribbble</span>
-        </section>
       </div>
     </nav>
     <div id="border">

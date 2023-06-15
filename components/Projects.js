@@ -1,10 +1,7 @@
 const Projects = () => (
   <>
-    <div className="img">
-      <img src="/svg/pivoineYellow.svg" />
-    </div>
     <div className="projects">
-      <h2>Realisations</h2>
+      <h2>Projects</h2>
       <ul className="card projects">
         <li>
           <ul>
@@ -14,27 +11,23 @@ const Projects = () => (
             </li>
             <li>
               <h4>SaaS -</h4>
-              <span>NextJS/ReactJS : ogme.io</span>
+              <span>Next/React : ogme.io</span>
             </li>
             <li>
               <h4>Portfolio -</h4>
               <span>NextJS/ReactJS : clairemarievaney.com</span>
             </li>
             <li>
-              <h4>location de véhicules E.Leclerc -</h4>
+              <h4>E.Leclerc vehicle rental -</h4>
               <span>Symfony : location.assurandis.com</span>
             </li>
             <li>
-              <h4>vitrine pour une psychologue -</h4>
-              <span>Elevently : psychologue-alicefelt.fr</span>
+              <h4>Group travel planner -</h4>
+              <span>Next/React/Typescript/Vanilla-extract</span>
             </li>
             <li>
-              <h4>générations de blobs -</h4>
-              <div>NextJS/ReactJS : organicblob.com</div>
-            </li>
-            <li>
-              <h4>Ecommerce -</h4>
-              <div>NextJS/Strapi</div>
+              <h4>Blob generator -</h4>
+              <div>Next/React : organicblob.com</div>
             </li>
           </ul>
         </li>

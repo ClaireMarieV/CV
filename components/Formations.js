@@ -1,29 +1,26 @@
 import React from "react";
-import Link from "next/link";
 
 const Experiences = () => (
-  <div>
+  <>
     <div className="img">
       <img src="/svg/pivoineYellow.svg" />
     </div>
-    <div>
-      <div className="training">
-        <h2>Formations</h2>
-        <ul>
-          <li>
-            <span>Octobre 2018 - Juillet 2019</span>
-            <span>Certificat Professionnel Développeur web </span>
-          </li>
-          <li>
-            <span>Sept 2012 - Jui 2013</span>
-            <span> M.A.N.A.A (Mise à Niveau en Arts Appliqués) </span>
-          </li>
-          <li>
-            <span>Sept 2010 - Jui 2012</span>
-            <span>Baccalauréat Professionnel Métiers de la Mode </span>
-          </li>
-        </ul>
-      </div>
+    <div className="training">
+      <h2>formations</h2>
+      <ul>
+        <li>
+          <span>Octobre 2018 - Juillet 2019</span>
+          <span>Professional Certificate web developer </span>
+        </li>
+        <li>
+          <span>Sept 2012 - Jui 2013</span>
+          <span> M.A.N.A.A (applied arts) </span>
+        </li>
+        <li>
+          <span>Sept 2010 - Jui 2012</span>
+          <span>Baccalauréat Professionnel Métiers de la Mode </span>
+        </li>
+      </ul>
     </div>
 
     <style jsx>{`
@@ -37,14 +34,14 @@ const Experiences = () => (
 
       .img {
         position: absolute;
-        top: 115rem;
-        left: 7rem;
+        top: 87rem;
+        left: 46rem;
       }
       .img img {
         max-width: 11rem;
       }
     `}</style>
-  </div>
+  </>
 );
 
 export default Experiences;

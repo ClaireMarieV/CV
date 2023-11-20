@@ -9,20 +9,21 @@ const Skills = () => (
       </section>
       <ul className="card">
         <li>
+          <h4>Frameworks/plateform</h4>
+          <ul>
+            <li>ReactJs</li>
+            <li>Typescript</li>
+            <li>NodeJs</li>
+            <li>Symfony</li>
+          </ul>
+        </li>
+        <li>
           <h4>languages</h4>
           <ul>
             <li>PHP</li>
             <li>MySQL</li>
+            <li>Postgresql</li>
             <li>Javascript</li>
-          </ul>
-        </li>
-
-        <li>
-          <h4>Frameworks</h4>
-          <ul>
-            <li>ReactJs</li>
-            <li>NodeJs</li>
-            <li>Symfony</li>
           </ul>
         </li>
 
@@ -30,12 +31,13 @@ const Skills = () => (
           <h4>Design</h4>
           <ul>
             <li>Wireframing</li>
-            <li>Experience client</li>
-            <li>Optimisation</li>
+            <li>Figma</li>
             <li>Interaction Design</li>
             <li>Interface Design</li>
             <li>User Design</li>
             <li>Adobe Illustrator</li>
+            <li>Optimisation</li>
+            <li>Experience client</li>
           </ul>
         </li>
       </ul>
@@ -59,7 +61,7 @@ const Skills = () => (
       .img {
         position: absolute;
         left: 7rem;
-        top: 33rem;
+        top: 36rem;
         z-index: 0;
       }
       .img img {

@@ -1,13 +1,9 @@
 const Resume = () => (
   <>
-    <div className="img">
-      <img src="/svg/pivoineYellow.svg" />
-    </div>
     <div className="resume">
-      <h2>about me</h2>
+      <h2>about</h2>
       <p>
-        Je m'appelle Claire et je suis développeuse fullstack freelance - ux/ui
-        designer.
+        Je m'appelle Claire et je suis développeuse fullstack - UX/UI designer.
       </p>
       <p>
         J'ai appris au travers de mes formations et expériences une méthodologie
@@ -19,7 +15,7 @@ const Resume = () => (
         connaissance des comportements, émotions et attentes de l’utilisateur
         afin de rendre accessible, agréable et interactif un produit ou service.
         Ces domaines regroupent logique, analyse et créativité; c'est pourquoi
-        j'aime pouvoir travailler sur l'ux/ui design et web développement de
+        j'aime pouvoir travailler sur l'ux/ui design et le développement de
         sites web.
       </p>
     </div>

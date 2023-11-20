@@ -11,21 +11,21 @@ const Experiences = () => (
         <li>
           <span>AVR 2020 - NOW</span>
           <span>
-            Freelance développeuse fullstack - UX/UI et Graphic Designer
+            Freelance fullstack developer - UX/UI designer and Graphic Designer
           </span>
         </li>
         <li>
           <span>SEP 2020 OCT 2020</span>
-          <span>Développeuse front-end / Integratrice : </span>
+          <span>frontend developer / Integrator : </span>
           Psychologue
         </li>
         <li>
           <span>OCT 2019 MAR 2020</span>
-          <span>Développeuse fullstack : </span>Via Mobilis
+          <span>fullstack developer : </span>Via Mobilis
         </li>
         <li>
           <span>MAI 2019 JUIL 2019</span>
-          <span>Développeuse fullstack : </span>Assurandis
+          <span>fullstack developer : </span>Assurandis
         </li>
       </ul>
     </div>
@@ -53,8 +53,8 @@ const Experiences = () => (
       }
       .img {
         position: absolute;
-        top: 79rem;
-        left: 49rem;
+        top: 87rem;
+        left: 7rem;
       }
       .img img {
         max-width: 11rem;

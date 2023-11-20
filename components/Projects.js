@@ -14,7 +14,7 @@ const Projects = () => (
             </li>
             <li>
               <h4>SaaS -</h4>
-              <span>NextJS/ReactJS : ogme.io</span>
+              <span>NextJS/ReactJS : ogme-io.vercel.app</span>
             </li>
             <li>
               <h4>Portfolio -</h4>
@@ -32,10 +32,6 @@ const Projects = () => (
               <h4>générations de blobs -</h4>
               <div>NextJS/ReactJS : organicblob.com</div>
             </li>
-            <li>
-              <h4>Ecommerce -</h4>
-              <div>NextJS/Strapi</div>
-            </li>
           </ul>
         </li>
       </ul>
@@ -50,8 +46,8 @@ const Projects = () => (
       }
       .img {
         position: absolute;
-        left: 49rem;
-        top: 34rem;
+        left: 46rem;
+        top: 36rem;
         z-index: 0;
       }
       .img img {

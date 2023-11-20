@@ -6,8 +6,8 @@ const Header = () => (
       <div className="name">
         <div className="title">
           <h1>Claire Marie Vaney</h1>
-          <h2>Développeuse Fullstack </h2>
-          <h2> UX/UI Designer - Graphic Designer</h2>
+          <h2>Frontend Developer </h2>
+          <h2>UX/UI Designer</h2>
         </div>
         <div className="img">
           <img src="/svg/pivoine.svg" />
@@ -16,11 +16,11 @@ const Header = () => (
       <div className="info">
         <span>Lieu</span>
         <span>: Nancy - France</span>
-        <span>telephone</span>
+        <span>Telephone</span>
         <span>: 06.25.67.11.23</span>
         <span>email</span>
         <span>: claire.marie.vaney@gmail.com</span>
-        <span>social network</span>
+        <span>reseaux sociaux</span>
         <section className="contact">
           <img src="/svg/social/linkedin.svg" />
           <img src="/svg/social/github.svg" />

@@ -4,32 +4,32 @@ const Projects = () => (
       <h2>Projects</h2>
       <ul className="card projects">
         <li>
-          <ul>
-            <li>
-              <h4>Longines Riviera Homepage -</h4>
-              <span>HTML/CSS/GSAP </span>
-            </li>
-            <li>
-              <h4>SaaS -</h4>
-              <span>Next/React : ogme.io</span>
-            </li>
-            <li>
-              <h4>Portfolio -</h4>
-              <span>NextJS/ReactJS : clairemarievaney.com</span>
-            </li>
-            <li>
-              <h4>E.Leclerc vehicle rental -</h4>
-              <span>Symfony : location.assurandis.com</span>
-            </li>
-            <li>
-              <h4>Group travel planner -</h4>
-              <span>Next/React/Typescript/Vanilla-extract</span>
-            </li>
-            <li>
-              <h4>Blob generator -</h4>
-              <div>Next/React : organicblob.com</div>
-            </li>
-          </ul>
+          <h4>Longines Riviera Homepage -</h4>
+          <span>HTML/CSS/GSAP </span>
+        </li>
+        <li>
+          <h4>SaaS -</h4>
+          <span>React : ogme.io</span>
+        </li>
+        <li>
+          <h4>Portfolio -</h4>
+          <span>React : clairemarievaney.com</span>
+        </li>
+        <li>
+          <h4>E.Leclerc vehicle rental -</h4>
+          <span>Symfony : location.assurandis.com</span>
+        </li>
+        <li>
+          <h4>Group travel planner -</h4>
+          <span>React/Typescript/Vanilla-extract</span>
+        </li>
+        <li>
+          <h4>Blob generator -</h4>
+          <div>React : organicblob.com</div>
+        </li>
+        <li>
+          <h4>OBAAA -</h4>
+          <div>Illustrator : https://clairemariev.gumroad.com/l/obaaa</div>
         </li>
       </ul>
     </div>

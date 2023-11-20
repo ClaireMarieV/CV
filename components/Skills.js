@@ -6,21 +6,20 @@ const Skills = () => (
       </section>
       <ul className="card">
         <li>
-          <h4>languages</h4>
+          <h4>Development</h4>
           <ul>
             <li>PHP</li>
-            <li>Typescript</li>
+            <ul className="frameworks">
+              <li>Symfony</li>
+            </ul>
+            <li>Javascript/Typescript</li>
+            <ul className="frameworks">
+              <li>Next</li>
+              <li>React Three Fiber</li>
+              <li>Node</li>
+            </ul>
             <li>MySQL</li>
             <li>Postgresql</li>
-          </ul>
-        </li>
-
-        <li>
-          <h4>Frameworks/Lib</h4>
-          <ul>
-            <li>ReactJs</li>
-            <li>NodeJs</li>
-            <li>Symfony</li>
           </ul>
         </li>
 
@@ -34,6 +33,7 @@ const Skills = () => (
             <li>Interface Design</li>
             <li>User Design</li>
             <li>Adobe Illustrator</li>
+            <li>Blender</li>
           </ul>
         </li>
       </ul>
@@ -62,6 +62,9 @@ const Skills = () => (
       }
       .img img {
         max-width: 11rem;
+      }
+      .frameworks {
+        padding-left: 1rem;
       }
     `}</style>
   </>

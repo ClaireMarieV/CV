@@ -8,8 +8,8 @@ const Experiences = () => (
         <h2>Formations</h2>
         <ul>
           <li>
-            <span>Octobre 2018 - Juillet 2019</span>
-            <span>Certificat Professionnel Développeur web </span>
+            <span>Oct 2018 - Juil 2019</span>
+            <span>Titre Professionnel Développeur web </span>
           </li>
           <li>
             <span>Sept 2012 - Jui 2013</span>

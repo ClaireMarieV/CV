@@ -3,7 +3,7 @@ const Resume = () => (
     <div className="resume">
       <h2>about me</h2>
       <p>
-        I'm Claire and I am a freelance fullstack developer and ux/ui designer
+        I'm Claire and I am a freelance fullstack developer and UX/UI designer
         with several years of experience.
       </p>
       <p>

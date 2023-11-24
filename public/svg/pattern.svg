@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 372 386.8" style="enable-background:new 0 0 372 386.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#ebebeb;}
+	.st2{fill:url(#SVGID_00000155137774034673402580000011538984240655044502_);}
+</style>
+<pattern  y="386.8" width="16.6" height="16.6" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="1.6 -18.2 16.6 16.6" style="overflow:visible;">
+	<g>
+		<rect x="1.6" y="-18.2" class="st0" width="16.6" height="16.6"/>
+		<g>
+			<rect x="1.6" y="-18.2" class="st0" width="16.6" height="16.6"/>
+			<circle class="st1" cx="18.2" cy="-14" r="1.6"/>
+			<circle class="st1" cx="9.9" cy="-18.2" r="1.6"/>
+			<circle class="st1" cx="1.6" cy="-14" r="1.6"/>
+			<circle class="st1" cx="18.2" cy="-5.7" r="1.6"/>
+			<circle class="st1" cx="9.9" cy="-9.9" r="1.6"/>
+			<circle class="st1" cx="1.6" cy="-5.7" r="1.6"/>
+			<circle class="st1" cx="9.9" cy="-1.6" r="1.6"/>
+		</g>
+	</g>
+</pattern>
+<g>
+	
+		<pattern  id="SVGID_00000090262355058851309020000011982658679030681528_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 -117.0647 -16081.9004)">
+	</pattern>
+	<path style="fill:url(#SVGID_00000090262355058851309020000011982658679030681528_);" d="M170.9,10.7C193.8,7.5,273.6,12.4,307,36
+		c34,24,59.9,96.7,61.5,156.6c1.6,59.1-4.4,93.8-33.5,122.4c-36.6,35.9-102,58-147.3,58c-46.2,0-83.3-27.4-116.7-61
+		C36.8,277.5,6.9,236.4,6.9,192.6C6.9,104,65.2,25.4,170.9,10.7z"/>
+</g>
+</svg>

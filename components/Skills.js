@@ -1,45 +1,71 @@
 const Skills = () => (
   <>
-    <div className="img">
-      <img src="/svg/pivoineYellow.svg" />
-    </div>
     <div className="competences">
       <section>
-        <h2>Competences</h2>
+        <h2>skills</h2>
       </section>
-      <ul className="card">
-        <li>
-          <h4>Frameworks/plateform</h4>
-          <ul>
-            <li>ReactJs</li>
-            <li>Typescript</li>
-            <li>NodeJs</li>
-            <li>Symfony</li>
-          </ul>
-        </li>
-        <li>
-          <h4>languages</h4>
-          <ul>
-            <li>PHP</li>
-            <li>MySQL</li>
-            <li>Postgresql</li>
-            <li>Javascript</li>
-          </ul>
-        </li>
 
+      <ul className="card">
+        <li className="chart">
+          <img src="/svg/chart.svg" />
+        </li>
         <li>
-          <h4>Design</h4>
           <ul>
-            <li>Wireframing</li>
-            <li>Figma</li>
-            <li>Interaction Design</li>
-            <li>Interface Design</li>
-            <li>User Design</li>
-            <li>Adobe Illustrator</li>
-            <li>Optimisation</li>
-            <li>Experience client</li>
+            <li>French: fluent</li>
+            <li>English: fluent</li>
+            <li>Italian: A2</li>
           </ul>
         </li>
+        <li>
+          <ul className="langage">
+            <li>
+              <span>PHP</span>
+            </li>
+            <li>
+              <span>Symfony</span>
+            </li>
+          </ul>
+        </li>
+        <ul className="frameworks">
+          <li>
+            <ul className="langage">
+              <li>
+                <span>Javascript</span>
+              </li>
+              <li>
+                <span>Typescript</span>
+              </li>
+              <li>
+                <span>Next</span>
+              </li>
+              <li>
+                <span>React Three Fiber</span>
+              </li>
+              <li>
+                <span>Node</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul className="langage">
+              <li>
+                <span>Databases</span>
+              </li>
+              <li>
+                <span>MySQL</span>
+              </li>
+              <li>
+                <span>Postgresql</span>
+              </li>
+              <li>
+                <span>Prisma</span>
+              </li>
+              <li>
+                <span>MongoDB</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </ul>
     </div>
 
@@ -58,14 +84,35 @@ const Skills = () => (
       .competences {
         position: relative;
       }
+
+      .langage > li:first-child {
+        font-weight: 600;
+      }
+      .chart {
+        width: 35rem;
+      }
+      .evaluate {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+      }
+      .evaluate > div {
+        border-radius: 50%;
+        background: blue;
+        width: 0.5rem;
+        height: 0.5rem;
+      }
+
       .img {
         position: absolute;
         left: 7rem;
         top: 36rem;
         z-index: 0;
       }
-      .img img {
-        max-width: 11rem;
+
+      .frameworks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
       }
     `}</style>
   </>

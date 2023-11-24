@@ -5,21 +5,36 @@ import Layout from "../components/Layout";
 import Content from "../components/Content";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
-import Resume from "../components/Resume";
+import Header from "../components/Header";
 import Experiences from "../components/Experiences";
 import Formations from "../components/Formations";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Header />
+    <section>
+      <div>{/* <img src="/svg/motionPath.svg" /> */}</div>
+    </section>
     <Content>
-      <Skills />
-      <Projects />
-      <Experiences />
-      <Formations />
+      <div>
+        <Skills />
+      </div>
+
+      <div className="content-projects">
+        <Projects />
+        <Formations />
+        <Experiences />
+      </div>
     </Content>
 
-    <style jsx>{``}</style>
+    <style jsx>{`
+      .content-projects {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+    `}</style>
   </Layout>
 );
 

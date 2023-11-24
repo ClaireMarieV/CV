@@ -1,65 +1,63 @@
 const Experiences = () => (
   <>
-    <div className="img">
-      <img src="/svg/pivoineYellow.svg" />
-    </div>
-    <div className="experiences">
-      <section>
-        <h2>experiences</h2>
-      </section>
-      <ul>
-        <li>
-          <span>AVR 2020 - NOW</span>
-          <span>
-            Freelance fullstack developer - UX/UI designer and Graphic Designer
-          </span>
-        </li>
-        <li>
-          <span>SEP 2020 OCT 2020</span>
-          <span>frontend developer / Integrator : </span>
-          Psychologue
-        </li>
-        <li>
-          <span>OCT 2019 MAR 2020</span>
-          <span>fullstack developer : </span>Via Mobilis
-        </li>
-        <li>
-          <span>MAI 2019 JUIL 2019</span>
-          <span>fullstack developer : </span>Assurandis
-        </li>
-      </ul>
-    </div>
+    <section>
+      <div className="experiences">
+        <section>
+          <h2>experiences</h2>
+        </section>
+        <ul>
+          <li>
+            <div className="weight">
+              <span>Freelance fullstack developer </span>
+              <span>& visual Designer</span>
+            </div>
 
-    <style jsx>{`
-      .experiences ul li:nth-child(2n) {
-        margin-bottom: 1rem;
-      }
-      .experiences ul {
-        gap: 2rem;
-      }
-      section {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-      }
-      section > img {
-        width: 5rem;
-      }
-      .experiences ul li > span {
-        text-transform: uppercase;
-      }
-      .experiences ul li > span:nth-child(1) {
-        font-weight: 500;
-      }
-      .img {
-        position: absolute;
-        top: 87rem;
-        left: 7rem;
-      }
-      .img img {
-        max-width: 11rem;
-      }
-    `}</style>
+            <span>avril 2020 - now</span>
+          </li>
+          <li>
+            <span>frontend developer & Integrator</span>
+            <span>Psychologue, 09/2020 - 10/2020</span>
+          </li>
+
+          <li>
+            <span>fullstack developer</span>
+            <span>Via Mobilis, 10/2019 - 03/2020</span>
+          </li>
+          <li>
+            <span>fullstack developer</span>
+            <span>Assurandis, 05/2019 - 08/2019</span>
+          </li>
+        </ul>
+      </div>
+
+      <style jsx>{`
+        section {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+        section > img {
+          width: 5rem;
+        }
+        .experiences ul li > span:first-child {
+          text-transform: uppercase;
+        }
+        .experiences ul li > span:nth-child(1) {
+          font-weight: 600;
+        }
+        .weight {
+          text-transform: uppercase;
+          font-weight: 600;
+          flex-direction: column;
+          display: flex;
+        }
+        img {
+          max-width: 2rem;
+          align-self: baseline;
+          margin-top: 0.5rem;
+        }
+      `}</style>
+    </section>
   </>
 );
 

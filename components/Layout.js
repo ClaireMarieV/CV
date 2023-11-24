@@ -4,7 +4,6 @@ import Header from "./Header";
 
 const Layout = ({ children }) => (
   <div className="layout">
-    <Header />
     <link rel="stylesheet" href="https://use.typekit.net/drd3nqt.css"></link>
 
     <div
@@ -22,24 +21,23 @@ const Layout = ({ children }) => (
           height: 100%;
         }
         main {
-          width: 70vw;
-          margin: auto;
+          margin: 4rem;
         }
+
         html,
         body {
           margin: 0;
           padding: 0;
           border: 0;
-          color: #26332e;
         }
         body {
           width: 100%;
           height: 100%;
           overflow-y: scroll;
           overflow-x: auto;
-          color: #373737;
-          font-family: mr-eaves, sans-serif;
-          font-weight: 300;
+          color: #1d1d1d;
+          background-color: #fbfbf9;
+          font-family: roboto, sans-serif;
           font-style: normal;
           margin: 0;
           letter-spacing: 0.08rem;
@@ -67,7 +65,6 @@ const Layout = ({ children }) => (
         }
         h1,
         h2 {
-          font-family: mr-eaves-modern, sans-serif;
           font-weight: 400;
           font-style: normal;
           text-transform: uppercase;
@@ -76,17 +73,20 @@ const Layout = ({ children }) => (
           letter-spacing: 0.15rem;
           font-size: 4rem;
         }
+
         h2 {
           font-size: 2rem;
           margin: 0;
+          color: #442ceb;
+          text-transform: lowercase;
+          font-weight: 500;
         }
+
         h3 {
-          font-family: mr-eaves-modern, sans-serif;
           font-weight: 400;
           font-style: normal;
           font-size: 1.5rem;
           letter-spacing: 0.08rem;
-          padding-bottom: 0.5rem;
           margin: 0;
         }
 

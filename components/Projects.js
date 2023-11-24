@@ -1,59 +1,57 @@
 const Projects = () => (
   <>
-    <div className="img">
-      <img src="/svg/pivoineYellow.svg" />
-    </div>
-    <div className="projects">
-      <h2>Realisations</h2>
-      <ul className="card projects">
-        <li>
-          <ul>
-            <li>
-              <h4>Longines Riviera Homepage -</h4>
-              <span>HTML/CSS/GSAP </span>
-            </li>
-            <li>
-              <h4>SaaS -</h4>
-              <span>NextJS/ReactJS : ogme-io.vercel.app</span>
-            </li>
-            <li>
-              <h4>Portfolio -</h4>
-              <span>NextJS/ReactJS : clairemarievaney.com</span>
-            </li>
-            <li>
-              <h4>location de véhicules E.Leclerc -</h4>
-              <span>Symfony : location.assurandis.com</span>
-            </li>
-            <li>
-              <h4>vitrine pour une psychologue -</h4>
-              <span>Elevently : psychologue-alicefelt.fr</span>
-            </li>
-            <li>
-              <h4>générations de blobs -</h4>
-              <div>NextJS/ReactJS : organicblob.com</div>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+    <section>
+      <div className="projects">
+        <h2>projects</h2>
+        <ul className="card-projects">
+          <li>
+            <h4>SaaS - React</h4>
+            <span> ogme.io</span>
+          </li>
+          <li>
+            <h4>E.Leclerc vehicle rental - Symfony</h4>
+            <span>location.assurandis.com</span>
+          </li>
+          <li>
+            <h4>Group travel planner - react/typescript</h4>
+          </li>
+          <li>
+            <h4>Blob generator - React</h4>
+            <div>organicblob.com</div>
+          </li>
+          <li>
+            <h4>OBAAA - Illustrator</h4>
+            <div>https://clairemariev.gumroad.com/l/obaaa</div>
+          </li>
+        </ul>
+      </div>
+      <style jsx>{`
+        section {
+          display: flex;
+          gap: 1rem;
+        }
+        .projects {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .card-projects {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          margin: 0;
+        }
 
-    <style jsx>{`
-      ul li {
-        margin-bottom: 1rem;
-      }
-      .competences:nth-child(3) .card ul ul:nth-child(1) > li {
-        font-weight: 600;
-      }
-      .img {
-        position: absolute;
-        left: 46rem;
-        top: 36rem;
-        z-index: 0;
-      }
-      .img img {
-        max-width: 11rem;
-      }
-    `}</style>
+        .competences:nth-child(3) .card ul ul:nth-child(1) > li {
+          font-weight: 600;
+        }
+        img {
+          max-width: 2rem;
+          align-self: baseline;
+          margin-top: 0.5rem;
+        }
+      `}</style>
+    </section>
   </>
 );
 export default Projects;

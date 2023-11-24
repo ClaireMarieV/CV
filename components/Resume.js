@@ -1,34 +1,22 @@
 const Resume = () => (
   <>
     <div className="resume">
-      <h2>about</h2>
+      <h2>hello!</h2>
       <p>
-        Je m'appelle Claire et je suis développeuse fullstack - UX/UI designer.
+        Throughout my freelancing career, I have worked on a diverse array of
+        projects, gaining expertise in both front-end and back-end development.
+        I am proficient in utilizing TypeScript, React, Prisma, and Figma. My
+        strong interest in design further complements my skill set.
       </p>
-      <p>
-        J'ai appris au travers de mes formations et expériences une méthodologie
-        qui va de l'idéation au prototypage.
-      </p>
-      <p>
-        Pour moi, Le développement front accompagne le design autant que le
-        développement back en se posant au centre et se basant sur la
-        connaissance des comportements, émotions et attentes de l’utilisateur
-        afin de rendre accessible, agréable et interactif un produit ou service.
-        Ces domaines regroupent logique, analyse et créativité; c'est pourquoi
-        j'aime pouvoir travailler sur l'ux/ui design et le développement de
-        sites web.
-      </p>
+      <p></p>
     </div>
 
     <style jsx>{`
-      .img {
-        position: absolute;
-        left: 7rem;
-        top: 79rem;
-        z-index: 0;
+      .resume {
+        width: 20rem;
       }
-      .img img {
-        max-width: 11rem;
+      .resume > p {
+        font-style: italic;
       }
     `}</style>
   </>

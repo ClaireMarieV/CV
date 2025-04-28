@@ -1,13 +1,12 @@
 const Resume = () => (
   <>
     <div className="resume">
-      <h2>hello!</h2>
-
       <p>
-        Tout au long de ma carrière de freelance, j'ai collaboré sur divers
-        projets, développant une expertise à la fois en front-end et en
-        back-end. Je maitrise React, Prisma et Figma. Mon fort intérêt pour le
-        design vient également enichir mes compétences.
+        Creative and detail-oriented graphic designer with a passion for
+        minimalist, impactful visual communication. Skilled in Adobe Creative
+        Suite (Illustrator, Photoshop, InDesign) with a strong focus on
+        branding, typography, and layout design. Seeking to bring fresh and
+        effective visual solutions to a forward-thinking studio.
       </p>
       <p></p>
     </div>

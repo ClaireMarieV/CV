@@ -77,13 +77,14 @@ const Layout = ({ children }) => (
         p {
           font-weight: 300;
           text-align: justify;
-          line-height: 2rem;
+          line-height: 1.5rem;
         }
 
         ul > li {
           display: flex;
           flex-direction: column;
           gap: 1rem;
+          line-height: 1.5rem;
         }
 
         a {

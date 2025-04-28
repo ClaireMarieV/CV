@@ -6,26 +6,25 @@ const Projects = () => (
         <ul className="card-projects">
           <li>
             <h4>
-              Icademie - Perrier Project - Solo Project | 01.03.25 - 03.21.25
+              Sci-Fi Title Sequence (Fictional Project for Netflix – 2025)
             </h4>
             <span>
-              Conceptualized, designed, and animated a 30 seconds animated short
-              video for social media from start to finish.
+              Created a 3D animated opening sequence for a fictional Netflix
+              sci-fi series as part of a design course project. Focused on
+              storytelling through stylized lighting, animation, and motion
+              graphics using Blender (Eevee) and After Effects.
+            </span>
+            <spann></spann>
+          </li>
+          <li>
+            <h4>Perrier 3D Commercial (Fictional Client Project – 2024)</h4>
+            <span>
+              Produced a 3D advertising video for Perrier as a fictional
+              branding exercise.
             </span>
             <span>
-              Created storyboards and style frames to plan the visual direction.
-            </span>
-            <span>
-              Designed and animated graphics using Adobe Illustrator, InDesiign
-              and Blender.
-            </span>
-            <span>
-              Edited sound design and synchronized animations for a polished
-              final result.
-            </span>
-            <span>
-              Managed the entire creative pipeline, from ideation to final
-              rendering.
+              Designed realistic product renders and dynamic animations using
+              Blender (Cycles) and After Effects.
             </span>
           </li>
         </ul>

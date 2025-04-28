@@ -3,32 +3,37 @@ import About from "./Resume";
 const Header = () => (
   <section className="title">
     <div>
-      <h1>3D Designer | Motion Designer 3D</h1>
+      <h1>Graphic Designer</h1>
     </div>
-    <div>
+    <div className="resume">
       <p>
-        Specialized in crafting stylized yet believable worlds, I blend visual
-        storytelling, a strong sense of rhythm, and artistic direction.
-        Currently studying graphic and motion design, I’m looking for my first
-        opportunity—either in a studio or freelance—within the fields of luxury,
-        advertising, or entertainment.
+        Creative and detail-oriented graphic designer with a passion for
+        minimalist, impactful visual communication. Skilled in Adobe Creative
+        Suite (Illustrator, Photoshop, InDesign) with a strong focus on
+        branding, typography, and layout design. Seeking to bring fresh and
+        effective visual solutions to a forward-thinking studio.
       </p>
       <ul>
         <li>
           <strong>SKILLS : </strong>
         </li>
         <li>
-          TECHNICAL : Pre-production - Composition - Storyboarding - Programming
-          - Monitoring Trends - Video Editing - Texturing & Shading -
-          Storytelling visuel.
+          TECHNICAL SKILLS : Visual composition - Color theory - Typography
+          -Layout design - Branding and visual identity - Monitoring Trends -
+          Vector illustration creation - Web design- Storytelling visuel.
         </li>
         <li>
-          SOFTWARES : Adobe Illustrator - Adobe After Effect - Blender -
-          InDesign - Da Vinci Resolve
+          SOFTWARES : Adobe Illustrator (vector design, logos, illustrations) -
+          Adobe After Effect - Blender - Adobe InDesign (layout design:
+          magazines, brochures, books) - Figma (collaborative and UI/UX
+          design)Figma (collaborative and UI/UX design) - After Effects (if you
+          do motion design or simple animations)
         </li>
         <li>
-          SOFT SKILLS : Creativity - Sense of Aesthetics - Empathy - Autonomy -
-          Meeting Deadlines
+          SOFT SKILLS : Creativity - Strong aesthetics of sense - Attention to
+          detail - Autonomy - Meeting Deadlines - Time management - Curiosity
+          and creative awareness (keeping up with design trends) - Good
+          communication (explaining design choices) - Openness to feedback
         </li>
       </ul>
     </div>

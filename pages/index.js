@@ -3,7 +3,6 @@ import SEO from "../components/Seo";
 import Layout from "../components/Layout";
 import Content from "../components/Content";
 import Info from "../components/Info";
-import Projects from "../components/Projects";
 import Header from "../components/Title";
 import Experiences from "../components/Experiences";
 import Formations from "../components/Formations";
@@ -14,7 +13,6 @@ const IndexPage = () => (
     <Content>
       <Info />
       <Header />
-
       <div className="content-projects">
         <Experiences />
         <Formations />

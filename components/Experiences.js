@@ -7,107 +7,99 @@ const Experiences = () => (
         </section>
         <ul className="card-projects">
           <li>
-            <h4>Icademie - 03.14.25 - 05.23.25</h4>
-            <h3>Motion Designer and 2D/3D designer - Solo Project </h3>
+            <h4>
+              Sci-Fi Title Sequence (Fictional project for Netflix – 2025)
+            </h4>
             <ol className="project">
               <li>
                 <span>
-                  Designed and prepared 7 scenes in Blender and shots in 5 weeks
-                  using Illustrator, After Effect and Blender, adhering to
-                  animatic constraints.
+                  Designed a visual identity and cinematic compositions for a
+                  fictional sci-fi series concept.
                 </span>
               </li>
               <li>
                 <span>
-                  Animated a 30 seconds sequence with Blender and After Effects.
+                  Focused on storytelling through minimalistic environments,
+                  stylized lighting, and strong graphic compositions to convey
+                  atmosphere and narrative.
+                </span>
+              </li>
+              <li>
+                <span>
+                  The project aimed to create a distinctive and immersive
+                  branding experience, enhancing viewer engagement and emotional
+                  connection.
+                </span>
+              </li>
+            </ol>
+            <span>
+              Skills used: Art Direction, Visual Storytelling, Composition,
+              Color Theory, Branding for Entertainment
+            </span>
+            <span>Tools: Blender (Eevee), Adobe After Effects, Photoshop</span>
+          </li>
+          <li>
+            <h4>Perrier 3D Commercial (Fictional client project – 2024)</h4>
+            <ol className="project">
+              <li>
+                <span>
+                  Created a series of realistic and dynamic visuals for a
+                  fictional Perrier branding project.
+                </span>
+              </li>
+              <li>
+                <span>
+                  Focused on showcasing the product through minimalist 3D
+                  compositions, elegant lighting, and visual storytelling to
+                  reinforce brand identity and emotional appeal.
+                </span>
+              </li>
+              <li>
+                <span>
+                  The project aimed to enhance product perception by combining
+                  aesthetic refinement with strong, recognizable imagery.
+                </span>
+              </li>
+            </ol>
+            <span>
+              Skills used: Art Direction, Product Visualization, Branding,
+              Visual Storytelling, Composition, Lighting Design
+            </span>
+            <span>Tool: Blender (Cycles)</span>
+          </li>
+          <li>
+            <h4>
+              Obaa — Customizable Illustration Pack for UI and Branding (2023)
+            </h4>
+            <ol className="project">
+              <li>
+                <span>
+                  Designed a package of customizable illustrations available in
+                  multiple formats (SVG, PNG, JPG, AI, EPS) to meet the needs of
+                  UI/UX designers and brands.
+                </span>
+              </li>
+              <li>
+                <span>
+                  Focused on creating minimalistic visuals that represent
+                  universal activities to foster emotional connection and
+                  inclusivity
                 </span>
               </li>
 
               <li>
                 <span>
-                  Integrated graphic and audio elements into a structured
-                  pipeline for optimized production.
+                  The project enhances user interfaces by simplifying complex
+                  ideas, improving engagement, and establishing a unique visual
+                  identity across websites and applications.
                 </span>
               </li>
             </ol>
-            <ul className="achievements">
-              <li>
-                <h4>Significant achievements :</h4>
-              </li>
-              <li>
-                Complete production of a 30-seconds animated title sequence in a
-                solarpunk sci-fi universe, handled independently over 10 weeks.
-                Created the full pre-production package (research, visual
-                universe, storyboard, styleframes), followed by art direction,
-                3D/2D animation, compositing, editing, and color grading.
-                Multi-software pipeline including Blender (Eevee) for 3D
-                animation, After Effects for 2D animation and compositing, and
-                DaVinci Resolve for editing and grading. 7 scenes created, with
-                3+ stylized transitions and full integration of HUD and motion
-                design elements.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <h4>Icademie - 01.03.25 - 03.21.25</h4>
-            <h3>Motion Designer and 3D designer - Solo Project </h3>
-            <ol className="project">
-              <li>
-                <span>
-                  Conceptualized, designed, and animated a 30 seconds animated
-                  short video (thirty-second video) for social media from start
-                  to finish.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Created 4 scenes in Blender, including over 40 animations in
-                  total.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Created storyboards and style frames to plan the visual
-                  direction in 1 week.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Designed and animated graphics using 3 softwares : Adobe
-                  Illustrator, InDesign and Blender.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Edited sound design and synchronized animations for a polished
-                  final result in 1 week.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Managed the entire creative pipeline, from ideation to final
-                  rendering, in 3 months, for social media.
-                </span>
-              </li>
-              <ul className="achievements">
-                <li>
-                  <h4>Significant achievements :</h4>
-                </li>
-                <li>
-                  Since I had a tight deadline, to save time, I used Blender's
-                  modifiers (Mirror, Subdivision Surface, Array) to speed up the
-                  modeling process. I also employed procedural modeling
-                  techniques to make adjustments without losing previous work
-                  and adjusted the render samples in Cycles. For this, I used
-                  denoising (OptiX, OpenImageDenoise) to achieve faster results
-                  by reducing the sample count. I repeated the same object
-                  multiple times to save time and improve efficiency. And
-                  finally, I used pre-established libraries to quickly apply
-                  consistent materials to my models. It reducing production time
-                  by 30%.
-                </li>
-              </ul>
-            </ol>
+            <span>
+              Skills used : Illustration, Branding, Visual Storytelling, UI
+              Design Support
+            </span>
+            <span>Tool: Adobe Illustrator</span>
           </li>
         </ul>
       </div>

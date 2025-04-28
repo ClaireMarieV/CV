@@ -8,8 +8,9 @@
 	.st2{fill:#1D1D1D;}
 	.st3{font-family:'Roboto-Regular';}
 	.st4{font-size:20px;}
-	.st5{fill:none;stroke:#0409D2;stroke-width:6;stroke-miterlimit:10;}
-	.st6{fill:#0409D2;stroke:#0409D2;stroke-width:0.5;stroke-miterlimit:10;}
+	.st5{enable-background:new    ;}
+	.st6{fill:none;stroke:#0409D2;stroke-width:6;stroke-miterlimit:10;}
+	.st7{fill:#0409D2;stroke:#0409D2;stroke-width:0.5;stroke-miterlimit:10;}
 </style>
 <g id="Layer_1_00000089554265331324014000000011328455758227689388_">
 	<g>
@@ -46,33 +47,27 @@
 	<line class="st1" x1="148.8" y1="255.9" x2="531.6" y2="255.9"/>
 	<line class="st1" x1="205.9" y1="121.6" x2="475.8" y2="391.5"/>
 	<line class="st1" x1="474.3" y1="121.4" x2="204.6" y2="391.1"/>
-	<text transform="matrix(1 0 0 1 307.9583 23.7649)" class="st2 st3 st4">Design </text>
-	<text transform="matrix(1 0 0 1 302.9583 47.7649)" class="st2 st3 st4">Thinking</text>
-	<text transform="matrix(1 0 0 1 476.6061 93.7142)" class="st2 st3 st4">Interaction</text>
-	<text transform="matrix(1 0 0 1 493.8061 117.7142)" class="st2 st3 st4">Design</text>
-	<text transform="matrix(1 0 0 1 558.6811 249.9289)" class="st2 st3 st4">Adobe</text>
-	<text transform="matrix(1 0 0 1 547.1811 273.9289)" class="st2 st3 st4">Ilustrator</text>
-	<text transform="matrix(1 0 0 1 492.5903 396.8346)" class="st2 st3 st4">Blender</text>
-	<text transform="matrix(1 0 0 1 307.6637 482.0517)" class="st2 st3 st4">Design </text>
-	<text transform="matrix(1 0 0 1 294.3637 506.0517)" class="st2 st3 st4">Wireframe</text>
-	<text transform="matrix(1 0 0 1 103.061 396.835)" class="st2 st3 st4">Interface</text>
-	<text transform="matrix(1 0 0 1 112.161 420.835)" class="st2 st3 st4">Design</text>
-	<text transform="matrix(1 0 0 1 60.1819 256.5605)" class="st2 st3 st4">User </text>
-	<text transform="matrix(1 0 0 1 34.2819 280.5605)" class="st2 st3 st4">Experience</text>
+	<text transform="matrix(1 0 0 1 291.9583 44.7649)" class="st2 st3 st4">Conception</text>
+	<text transform="matrix(1 0 0 1 518.2397 97.7142)" class="st5"><tspan x="0" y="0" class="st2 st3 st4">Design</tspan><tspan x="-24.6" y="24" class="st2 st3 st4">d’interaction</tspan></text>
+	<text transform="matrix(1 0 0 1 562.9067 249.929)" class="st5"><tspan x="0" y="0" class="st2 st3 st4">Adobe</tspan><tspan x="-13.9" y="24" class="st2 st3 st4">Illustrator</tspan></text>
+	<text transform="matrix(1 0 0 1 491.5903 402.8346)" class="st2 st3 st4">Blender</text>
+	<text transform="matrix(1 0 0 1 294.3637 485.0517)" class="st2 st3 st4">Maquettes</text>
+	<text transform="matrix(1 0 0 1 112.5946 385.835)" class="st5"><tspan x="0" y="0" class="st2 st3 st4">Design</tspan><tspan x="-16.4" y="24" class="st2 st3 st4">d’interface</tspan></text>
+	<text transform="matrix(1 0 0 1 30.1003 250.5605)" class="st5"><tspan x="0" y="0" class="st2 st3 st4">Experience </tspan><tspan x="7.1" y="24" class="st2 st3 st4">utilisateur</tspan></text>
 	<text transform="matrix(1 0 0 1 100.9692 94.6985)" class="st2 st3 st4">Adobe </text>
 	<text transform="matrix(1 0 0 1 83.7692 118.6985)" class="st2 st3 st4">Photoshop</text>
-	<path class="st5" d="M238.6,357.2C219.8,330,171.7,297,180.7,256c13.4-61.1,67.2-30,94-65.5c17.4-23,4.6-95.2,64.7-91.6
+	<path class="st6" d="M238.6,357.2C219.8,330,171.7,297,180.7,256c13.4-61.1,67.2-30,94-65.5c17.4-23,4.6-95.2,64.7-91.6
 		c38.8,2.3,77.8,17.8,104.9,52.6c29.7,38.1,22.3,73.9,22.3,104.9c0,31.1-29.3,32.3-67.3,58.7c-34.7,24.1,8.4,72.8-58.3,80.9
 		C341,396,271.4,404.5,238.6,357.2z"/>
 </g>
 <g id="Layer_2_00000027605450271391558060000003803373257392116142_">
-	<circle class="st6" cx="340.3" cy="66.3" r="4.1"/>
-	<circle class="st6" cx="148.8" cy="255.9" r="4.1"/>
-	<circle class="st6" cx="531.6" cy="255.9" r="4.1"/>
-	<circle class="st6" cx="340.3" cy="448.4" r="4.1"/>
-	<circle class="st6" cx="475" cy="120.7" r="4.1"/>
-	<circle class="st6" cx="205" cy="120.7" r="4.1"/>
-	<circle class="st6" cx="476.2" cy="391.9" r="4.1"/>
-	<circle class="st6" cx="205" cy="390.8" r="4.1"/>
+	<circle class="st7" cx="340.3" cy="66.3" r="4.1"/>
+	<circle class="st7" cx="148.8" cy="255.9" r="4.1"/>
+	<circle class="st7" cx="531.6" cy="255.9" r="4.1"/>
+	<circle class="st7" cx="340.3" cy="448.4" r="4.1"/>
+	<circle class="st7" cx="475" cy="120.7" r="4.1"/>
+	<circle class="st7" cx="205" cy="120.7" r="4.1"/>
+	<circle class="st7" cx="476.2" cy="391.9" r="4.1"/>
+	<circle class="st7" cx="205" cy="390.8" r="4.1"/>
 </g>
 </svg>

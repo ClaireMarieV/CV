@@ -2,11 +2,12 @@ const Resume = () => (
   <>
     <div className="resume">
       <h2>hello!</h2>
+
       <p>
-        Throughout my freelancing career, I have worked on a diverse array of
-        projects, gaining expertise in both front-end and back-end development.
-        I am proficient in utilizing TypeScript, React, Prisma, and Figma. My
-        strong interest in design further complements my skill set.
+        Tout au long de ma carrière de freelance, j'ai collaboré sur divers
+        projets, développant une expertise à la fois en front-end et en
+        back-end. Je maitrise React, Prisma et Figma. Mon fort intérêt pour le
+        design vient également enichir mes compétences.
       </p>
       <p></p>
     </div>

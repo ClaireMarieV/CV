@@ -4,14 +4,21 @@ const Experiences = () => (
       <div>
         <div>
           <div className="training">
-            <h2>trainings</h2>
+            <h2>Training</h2>
             <ul>
               <li>
-                <h4>Titre Professionnel concepteur developpeur</h4>
+                <h4>Icademie</h4>
+                <h4>Motion Design – Bachelor’s Equivalent</h4>
+                <span>2024/2025</span>
+              </li>
+              <li>
+                <h4>CNAM</h4>
+                <h4>Web Development - Associate Degree Equivalent</h4>
                 <span>2018/2019</span>
               </li>
               <li>
-                <h4>Mise à Niveau en Arts Appliqués</h4>
+                <h4>ORT</h4>
+                <h4>Foundation Year in Applied Arts</h4>
                 <span>2012/2013</span>
               </li>
             </ul>
@@ -27,11 +34,10 @@ const Experiences = () => (
         ul li h3 {
           text-transform: uppercase;
         }
-
-        img {
-          max-width: 2rem;
-          align-self: baseline;
-          margin-top: 0.5rem;
+        ul {
+          gap: 1rem;
+          display: flex;
+          flex-direction: column;
         }
       `}</style>
     </section>

@@ -2,26 +2,31 @@ const Projects = () => (
   <>
     <section>
       <div className="projects">
-        <h2>projects</h2>
+        <h2>Creative Work</h2>
         <ul className="card-projects">
           <li>
-            <h4>SaaS - React</h4>
-            <span> ogme.io</span>
-          </li>
-          <li>
-            <h4>E.Leclerc vehicle rental - Symfony</h4>
-            <span>location.assurandis.com</span>
-          </li>
-          <li>
-            <h4>Group travel planner - react/typescript</h4>
-          </li>
-          <li>
-            <h4>Blob generator - React</h4>
-            <div>organicblob.com</div>
-          </li>
-          <li>
-            <h4>OBAAA - Illustrator</h4>
-            <div>https://clairemariev.gumroad.com/l/obaaa</div>
+            <h4>
+              Icademie - Perrier Project - Solo Project | 01.03.25 - 03.21.25
+            </h4>
+            <span>
+              Conceptualized, designed, and animated a 30 seconds animated short
+              video for social media from start to finish.
+            </span>
+            <span>
+              Created storyboards and style frames to plan the visual direction.
+            </span>
+            <span>
+              Designed and animated graphics using Adobe Illustrator, InDesiign
+              and Blender.
+            </span>
+            <span>
+              Edited sound design and synchronized animations for a polished
+              final result.
+            </span>
+            <span>
+              Managed the entire creative pipeline, from ideation to final
+              rendering.
+            </span>
           </li>
         </ul>
       </div>

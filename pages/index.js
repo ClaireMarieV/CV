@@ -1,30 +1,23 @@
 import React from "react";
 import SEO from "../components/Seo";
-import Link from "next/link";
 import Layout from "../components/Layout";
 import Content from "../components/Content";
-import Skills from "../components/Skills";
+import Info from "../components/Info";
 import Projects from "../components/Projects";
-import Header from "../components/Header";
+import Header from "../components/Title";
 import Experiences from "../components/Experiences";
 import Formations from "../components/Formations";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Header />
-    <section>
-      <div>{/* <img src="/svg/motionPath.svg" /> */}</div>
-    </section>
     <Content>
-      <div>
-        <Skills />
-      </div>
+      <Info />
+      <Header />
 
       <div className="content-projects">
-        <Projects />
-        <Formations />
         <Experiences />
+        <Formations />
       </div>
     </Content>
 
